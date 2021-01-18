@@ -1,0 +1,15 @@
+# Pipeline for genome assembly from raw SRA reads, annotation and genome statistics. 
+
+
+# Step 1
+# Obtain raw SRA reads 
+
+
+# Step 2
+# Inital quality testing with fastqc / multiqc 
+
+
+# Step 3 
+# Trim adapters etc with Trimmomatic? BBtool? 
+
+
