@@ -6,7 +6,7 @@
 #https://www.ncbi.nlm.nih.gov/sra/docs/sradownload/
 
 #prefetch - downloads runs in compressed SRA format 
-#fasterq-dump changes compresses SRA format to fastq
+#fasterq-dump changes compressed SRA format to fasta
 
 
 # Step 2
@@ -20,8 +20,12 @@
 #Erroneous seqs and adapters are removed before assembly
 #https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide/bbduk-guide/
 
+
+
 # Step 4 
 # Sequence Assembly (SPAdes)
 # Reads assembled into contigs
+#https://github.com/ablab/spades←to download SPAdes soft
+
 
 
