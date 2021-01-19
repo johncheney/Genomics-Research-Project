@@ -7,9 +7,15 @@
 
 # Step 2
 # Inital quality testing with fastqc / multiqc 
-
+# How many reads are available? Do they represent the genome? Are there adapters Present? 
 
 # Step 3 
-# Trim adapters etc with Trimmomatic? BBtool? 
+# Trim adapters/ filter data etc with Trimmomatic? BBtool? 
+#Erroneous seqs and adapters are removed before assembly
+
+
+# Step 4 
+# Sequence Assembly
+# Reads assembled into contigs
 
 
