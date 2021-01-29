@@ -33,7 +33,33 @@ johncheney@Johns-MBP-4 SRA %      """
 # How many reads are available? Do they represent the genome? Are there adapters Present? 
 #https://www.bioinformatics.babraham.ac.uk/projects/download.html <- to download fastqc software 
 
-# 
+""" johncheney@Johns-MBP-4 SRA % fastqc SRR13401411.fastq
+Started analysis of SRR13401411.fastq
+Approx 5% complete for SRR13401411.fastq
+Approx 10% complete for SRR13401411.fastq
+Approx 15% complete for SRR13401411.fastq
+Approx 20% complete for SRR13401411.fastq
+Approx 25% complete for SRR13401411.fastq
+Approx 30% complete for SRR13401411.fastq
+Approx 35% complete for SRR13401411.fastq
+Approx 40% complete for SRR13401411.fastq
+Approx 45% complete for SRR13401411.fastq
+Approx 50% complete for SRR13401411.fastq
+Approx 55% complete for SRR13401411.fastq
+Approx 60% complete for SRR13401411.fastq
+Approx 65% complete for SRR13401411.fastq
+Approx 70% complete for SRR13401411.fastq
+Approx 75% complete for SRR13401411.fastq
+Approx 80% complete for SRR13401411.fastq
+Approx 85% complete for SRR13401411.fastq
+Approx 90% complete for SRR13401411.fastq
+Approx 95% complete for SRR13401411.fastq
+Analysis complete for SRR13401411.fastq
+johncheney@Johns-MBP-4 SRA % ls
+SRR13401411		SRR13401411_fastqc.zip	refseq
+SRR13401411.fastq	files			sra
+SRR13401411_fastqc.html	nannot			wgs
+johncheney@Johns-MBP-4 SRA % open SRR13401411_fastqc.html """
 
 
 # Step 3 

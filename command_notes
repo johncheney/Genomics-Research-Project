@@ -1,0 +1,7 @@
+
+
+To add a file or a function to a path
+
+nano ~/.zshrc #and then add :path/to/dir your file is in 
+
+control o control x then close the terminal 
