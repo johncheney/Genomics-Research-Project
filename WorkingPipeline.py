@@ -67,7 +67,35 @@ johncheney@Johns-MBP-4 SRA % open SRR13401411_fastqc.html """
 #Erroneous seqs and adapters are removed before assembly
 #https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide/bbduk-guide/
 
+""" johncheney@Johns-MBP-4 SRA % bbduk.sh -Xmx1g in=SRR13401411.fastq out=SRR13401411.fastq_clean.fastq literal="CTGTCTCTTATACACATCTGACGCTGCCGACGA,CTGTCTCTTATACACATCTCCGAGCCCACGAGAC,CTGTCTCTTATACACATCTCTGATGGCGCGAGGGAGGC,CTGTCTCTTATACACATCTCTGAGCGGGCTGGCAAGGC" ktrim=r k=23 mink=11 hdist=1 tpe tbo
+/Users/johncheney/Downloads/bbmap//calcmem.sh: line 75: [: -v: unary operator expected
+java -ea -Xmx1g -Xms1g -cp /Users/johncheney/Downloads/bbmap/current/ jgi.BBDuk -Xmx1g in=SRR13401411.fastq out=SRR13401411.fastq_clean.fastq literal=CTGTCTCTTATACACATCTGACGCTGCCGACGA,CTGTCTCTTATACACATCTCCGAGCCCACGAGAC,CTGTCTCTTATACACATCTCTGATGGCGCGAGGGAGGC,CTGTCTCTTATACACATCTCTGAGCGGGCTGGCAAGGC ktrim=r k=23 mink=11 hdist=1 tpe tbo
+Executing jgi.BBDuk [-Xmx1g, in=SRR13401411.fastq, out=SRR13401411.fastq_clean.fastq, literal=CTGTCTCTTATACACATCTGACGCTGCCGACGA,CTGTCTCTTATACACATCTCCGAGCCCACGAGAC,CTGTCTCTTATACACATCTCTGATGGCGCGAGGGAGGC,CTGTCTCTTATACACATCTCTGAGCGGGCTGGCAAGGC, ktrim=r, k=23, mink=11, hdist=1, tpe, tbo]
+Version 38.87
 
+maskMiddle was disabled because useShortKmers=true
+0.025 seconds.
+Initial:
+Memory: max=1073m, total=1073m, free=1045m, used=28m
+
+Added 7095 kmers; time: 	0.018 seconds.
+Memory: max=1073m, total=1073m, free=1041m, used=32m
+
+Input is being processed as unpaired
+Started output streams:	0.023 seconds.
+Processing time:   		18.413 seconds.
+
+Input:                  	9959292 reads 		756906192 bases.
+KTrimmed:               	422346 reads (4.24%) 	10583732 bases (1.40%)
+Trimmed by overlap:     	0 reads (0.00%) 	0 bases (0.00%)
+Total Removed:          	10225 reads (0.10%) 	10583732 bases (1.40%)
+Result:                 	9949067 reads (99.90%) 	746322460 bases (98.60%)
+
+Time:                         	18.458 seconds.
+Reads Processed:       9959k 	539.57k reads/sec
+Bases Processed:        756m 	41.01m bases/sec
+johncheney@Johns-MBP-4 SRA % 
+"""
 
 # Step 4 
 # Sequence Assembly (SPAdes)
