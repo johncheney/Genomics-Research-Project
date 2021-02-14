@@ -1,4 +1,39 @@
+"""
 
+A Brief Overview of My Workflow
+
+Downloaded E.coli RNAseq Reads from SRA
+Downloaded E.coli Reference genome from SRA
+
+1. fasterq-dump to change from sra format to fastq 
+
+2. fastqc quality control step
+
+3. bbduk to trim adapters
+
+4. fastqc to double check step 3
+
+5. BWA to align reads to the reference genome
+
+6. Samtools to convert and sort to gtf format
+
+7. Stringtie to assemble and quantify
+
+8. Cuffdiff for differential expression analysis
+
+de novo
+
+5a. 
+
+6a. Samtools to convert and sort to gtf format
+
+7a. Stringtie to assemble and quantify
+
+8a. Cuffdiff for differential expression analysis
+
+
+
+"""
 #https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4742321/
 
 #Analysis of Whole Transcriptome Sequencing Data: Workflow and Software
@@ -33,3 +68,4 @@ Routine RNA-seq workflow may consist of the following five steps as shown in Fig
   In this review, we discuss the RNA-seq workflow and its related bioinformatics tools in each step (Table 1), focusing on transcriptome reconstruction and abundance 
   quantification.
 '''
+

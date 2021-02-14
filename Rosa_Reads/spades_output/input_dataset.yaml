@@ -1,7 +1,0 @@
-- "left reads":
-  - "/Users/johncheney/Documents/GitHub/Genomics-Research-Project/Rosa_Reads/lane1-s001-indexN702-S503-CGTACTAG-TATCCTCT-Isolate-9-1_S1_L001_R1_001.fastq_clean1.fastq"
-  "number": !!int "1"
-  "orientation": "fr"
-  "right reads":
-  - "/Users/johncheney/Documents/GitHub/Genomics-Research-Project/Rosa_Reads/lane1-s001-indexN702-S503-CGTACTAG-TATCCTCT-Isolate-9-1_S1_L001_R2_001.fastq_clean2.fastq"
-  "type": "paired-end"
