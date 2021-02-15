@@ -23,7 +23,8 @@ Downloaded E.coli Reference genome from SRA
 
 de novo
 
-5a. Trinity for de novo assembly 
+5a. Trinity for de novo assembly *** the errors from the conda env I'm running this
+in are just nigh on indecipherable to me so I'm hung up here, but I will keep trying! 
 
 6a. Samtools to convert and sort to gtf format
 

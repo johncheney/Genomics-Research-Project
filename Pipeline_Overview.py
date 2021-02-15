@@ -102,6 +102,12 @@ johncheney@Johns-MBP-4 SRA %
 # Reads assembled into contigs
 #https://github.com/ablab/spades←to download SPAdes soft
 
+"""
+The output for this was the longest thing I have ever seen,
+so I just put the output files that would fit under Rosa_Reads/spades_output
+
+"""
+
 
 
 
