@@ -23,7 +23,7 @@ Downloaded E.coli Reference genome from SRA
 
 de novo
 
-5a. 
+5a. Trinity for de novo assembly 
 
 6a. Samtools to convert and sort to gtf format
 
@@ -33,7 +33,12 @@ de novo
 
 
 
+ 
+
 """
+
+#*************** NOTES ******************
+
 #https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4742321/
 
 #Analysis of Whole Transcriptome Sequencing Data: Workflow and Software
